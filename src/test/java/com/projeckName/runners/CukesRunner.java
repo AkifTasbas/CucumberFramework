@@ -1,4 +1,4 @@
-package com.vytrack.runners;
+package com.projeckName.runners;
 
 
 import io.cucumber.junit.Cucumber;
@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "com/vytrack/step_definitions",
-        dryRun = false,
-        tags = "@wip"
+        glue = "com/projeckName/step_definitions",
+        dryRun = true,
+        tags = ""
 )
 public class CukesRunner {
 }
